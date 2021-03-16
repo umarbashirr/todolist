@@ -1,0 +1,16 @@
+.list-group-item:not(last-child) {
+    margin-bottom: 0.5rem;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.complete {
+    background-color: lightgreen;
+    text-decoration: line-through;
+}
+
+.fa-trash-alt {
+    pointer-events: none;
+}
