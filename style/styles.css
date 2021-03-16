@@ -9,6 +9,8 @@
 .complete {
     background-color: lightgreen;
     text-decoration: line-through;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
 }
 
 .fa-trash-alt {
